@@ -42,13 +42,11 @@
 ## 📊 公开活动仪表盘
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=MaribelHearm&show_icons=true&hide_border=true&theme=transparent&locale=zh-cn&title_color=9f1239&icon_color=fb7185&text_color=57606a" height="180" alt="GitHub 总览" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=MaribelHearm&layout=compact&hide_border=true&theme=transparent&locale=zh-cn&title_color=9f1239&text_color=57606a" height="180" alt="常用语言" />
+  <img src="https://github-stats-extended.vercel.app/api?username=MaribelHearm&show_icons=true&hide_border=true&theme=transparent&locale=zh-cn&title_color=9f1239&icon_color=fb7185&text_color=57606a" width="49%" alt="GitHub 总览" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=MaribelHearm&layout=compact&hide_border=true&theme=transparent&locale=zh-cn&title_color=9f1239&text_color=57606a" width="49%" alt="常用语言" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MaribelHearm&theme=github-compact&hide_border=true&area=true&days=31&custom_title=%E6%9C%80%E8%BF%91%2031%20%E5%A4%A9%E8%B4%A1%E7%8C%AE%E8%B6%8B%E5%8A%BF" width="96%" alt="最近 31 天贡献趋势" />
-</p>
+<p align="center"><sub>统计卡片随 GitHub 公开活动更新；贡献动效由本仓库 Action 生成。</sub></p>
 
 ## 🐍 贡献动效
 
