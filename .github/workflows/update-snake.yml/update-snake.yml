@@ -1,0 +1,35 @@
+name: 更新贡献蛇形图
+
+on:
+  schedule:
+    - cron: "17 17 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/update-snake.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出主页仓库
+        uses: actions/checkout@v7
+
+      - name: 生成浅色和深色贡献蛇形图
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: MaribelHearm
+          outputs: |
+            profile/github-snake.svg?palette=github-light
+            profile/github-snake-dark.svg?palette=github-dark
+
+      - name: 提交生成文件
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/github-snake.svg profile/github-snake-dark.svg
+          git diff --cached --quiet || git commit -m "🤖 chore(profile): update contribution snake"
+          git push
