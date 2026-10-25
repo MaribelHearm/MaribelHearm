@@ -1,66 +1,60 @@
 <div align="center">
-  <h1>霜叶 · NekoMint</h1>
-  <p><strong>把模型、浏览器和日常运维，做成能长期工作的系统。</strong></p>
+  <h1>你好，我是霜叶。👋</h1>
+  <p><strong>把 AI、浏览器和日常运维，做成真的能帮我把事情做完的工具。</strong></p>
   <p>
-    <a href="https://amireux.dev">个人网站</a>
-    ·
-    <a href="https://github.com/Zhumi-Heavy-Industries">猪咪重工</a>
-    ·
-    <a href="https://github.com/MaribelHearm">GitHub</a>
+    <a href="https://amireux.dev"><img src="https://img.shields.io/badge/个人网站-amireux.dev-9f1239?style=flat-square" alt="个人网站" /></a>
+    <a href="https://github.com/Zhumi-Heavy-Industries"><img src="https://img.shields.io/badge/猪咪重工-Minecraft-fb7185?style=flat-square" alt="猪咪重工" /></a>
+    <a href="https://github.com/MaribelHearm"><img src="https://img.shields.io/badge/GitHub-NekoMint-57606a?style=flat-square" alt="GitHub" /></a>
   </p>
 </div>
 
-> 我喜欢把一次性的脚本，做成可以反复运行、有人接管、出错可恢复的工作台。
-
-## 🧭 正在做
-
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>Pi 工作台 v2</h3>
-      <p>面向长期任务的个人 Agent 工作台：模型网关、子代理、持久状态、浏览器协作和可交接的运行现场。</p>
-      <p><strong>状态：</strong>持续开发中</p>
+    <td width="56%" valign="top">
+      <h2>我最近在折腾</h2>
+      <ul>
+        <li><strong>Pi 工作台 v2</strong>：做一个给自己用的 Agent 工作台。希望把任务交出去，过一会回来时，它还记得做到哪儿，也知道下一步该怎么走。</li>
+        <li><strong>agent-netkit</strong>：把浏览器、搜索、抓取和文件交付放进一个 CLI，给 LLM 和我自己用，正在整理成别人也能装的工具。</li>
+        <li><strong>猪咪重工</strong>：Minecraft 工业模组和世界观的小工坊，机器、配方和生产线都在这里慢慢长出来。</li>
+      </ul>
+      <h2>我的小偏好</h2>
+      <ul>
+        <li>不太喜欢一次性脚本，能复用的东西就多磨两下。</li>
+        <li>出错以后要能接着做，必要时也要能把控制权交回给人。</li>
+        <li>喜欢把每天遇到的小麻烦，变成下次不用再手动处理的工具。</li>
+      </ul>
     </td>
-    <td width="50%" valign="top">
-      <h3>agent-netkit</h3>
-      <p>给 LLM 用的 CLI 工具箱：持久浏览器、人工接管、搜索、抓取、研究和产物交付。</p>
-      <p><strong>状态：</strong>整理为可公开安装的工具包</p>
+    <td width="44%" valign="top">
+      <img src="https://github-stats-extended.vercel.app/api?username=MaribelHearm&show_icons=true&hide_border=true&theme=transparent&custom_title=%E9%9C%9C%E5%8F%B6%E7%9A%84%20GitHub%20%E6%95%B0%E6%8D%AE&title_color=9f1239&icon_color=fb7185&text_color=57606a" width="100%" alt="霜叶的 GitHub 数据" />
+      <br />
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=MaribelHearm&layout=compact&hide_border=true&theme=transparent&custom_title=%E6%88%91%E5%B8%B8%E7%94%A8%E7%9A%84%E8%AF%AD%E8%A8%80&title_color=9f1239&text_color=57606a" width="100%" alt="我常用的语言" />
     </td>
   </tr>
 </table>
 
-## 🧰 已公开的维护项目
+## 🧰 我维护的几个东西
 
-| 项目 | 方向 | 我在这里做什么 |
+| 项目 | 它是做什么的 | 我在里面做什么 |
 | --- | --- | --- |
-| [sgcc-home-assistant-bridg](https://github.com/MaribelHearm/sgcc-home-assistant-bridg) | Home Assistant | 浏览器自动化、电费数据、SQLite 缓存与 MQTT 发现 |
-| [ai-route-rules](https://github.com/MaribelHearm/ai-route-rules) | 网络规则 | 维护 AI、支付和账号目的地的 Mihomo 规则源 |
-| [amiruex-port](https://github.com/MaribelHearm/amiruex-port) | 个人网站 | 个人入口与实验项目的落点 |
+| [sgcc-home-assistant-bridg](https://github.com/MaribelHearm/sgcc-home-assistant-bridg) | 把电费数据接进 Home Assistant | 浏览器自动化、缓存和 MQTT 发现 |
+| [ai-route-rules](https://github.com/MaribelHearm/ai-route-rules) | 日常网络分流用的规则源 | 维护 AI、支付和账号相关规则 |
+| [amiruex-port](https://github.com/MaribelHearm/amiruex-port) | 我的个人网站 | 放个人入口和一些实验 |
 
-我也会收藏、跟进和复用不少上游项目；真正长期维护的内容，会逐步收拢到上面的入口。
+GitHub 上还有不少 Fork 和收藏，它们更多是我的工具箱和书签。真正还在维护的东西，我尽量放在这里。
 
-## 📊 公开活动仪表盘
-
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=MaribelHearm&show_icons=true&hide_border=true&theme=transparent&locale=zh-cn&title_color=9f1239&icon_color=fb7185&text_color=57606a" width="49%" alt="GitHub 总览" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=MaribelHearm&layout=compact&hide_border=true&theme=transparent&locale=zh-cn&title_color=9f1239&text_color=57606a" width="49%" alt="常用语言" />
-</p>
-
-<p align="center"><sub>统计卡片随 GitHub 公开活动更新；贡献动效由本仓库 Action 生成。</sub></p>
-
-## 🐍 贡献动效
+## 🐍 贡献图
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./profile/github-snake.svg" />
-    <img alt="GitHub 贡献蛇形图" src="./profile/github-snake.svg" />
+    <img alt="GitHub 贡献图" src="./profile/github-snake.svg" />
   </picture>
 </p>
 
-## 🗺️ 其他入口
+## 🗺️ 你还可以去这里
 
-- [猪咪重工](https://github.com/Zhumi-Heavy-Industries)：Minecraft 工业系统与世界观实验室
+- [猪咪重工](https://github.com/Zhumi-Heavy-Industries)：我和 Minecraft 工业模组的一块小工坊
 - [个人网站](https://amireux.dev)：更完整的个人入口
 
-<p align="center"><sub>持续搭建中 · 代码、系统与一点点猫</sub></p>
+<p align="center"><sub>还在慢慢搭，欢迎随便看看。</sub></p>
