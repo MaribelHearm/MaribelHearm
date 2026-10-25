@@ -23,8 +23,8 @@ jobs:
         with:
           github_user_name: MaribelHearm
           outputs: |
-            profile/github-snake.svg?palette=github-light
-            profile/github-snake-dark.svg?palette=github-dark
+            profile/github-snake.svg?palette=github-light&color_snake=#f08cb8&color_dots=#efeef8,#d9d6f7,#b3adeb,#8b85d6,#4a4596
+            profile/github-snake-dark.svg?palette=github-dark&color_snake=#f5b3cf&color_dots=#161b22,#2b2868,#433d92,#8b85d6,#cfcaf7
 
       - name: 提交生成文件
         run: |
